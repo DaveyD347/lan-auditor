@@ -1,0 +1,87 @@
+# Small built-in OUI table of vendors common on home networks.
+# Run `lan-auditor update-oui` to download the full IEEE registry.
+000393,Apple
+001B63,Apple
+001EC2,Apple
+3C0754,Apple
+A45E60,Apple
+ACBC32,Apple
+F01898,Apple
+B827EB,Raspberry Pi Foundation
+DCA632,Raspberry Pi Trading
+E45F01,Raspberry Pi Trading
+28CDC1,Raspberry Pi Trading
+D83ADD,Raspberry Pi Trading
+000C29,VMware
+005056,VMware
+000569,VMware
+080027,Oracle VirtualBox
+00155D,Microsoft Hyper-V
+00163E,Xen
+001788,Philips Lighting (Hue)
+18B430,Nest Labs
+641666,Nest Labs
+001A11,Google
+F4F5D8,Google
+546009,Google
+44650D,Amazon
+74C246,Amazon
+F0272D,Amazon
+FC65DE,Amazon
+F09FC2,Ubiquiti
+24A43C,Ubiquiti
+788A20,Ubiquiti
+FCECDA,Ubiquiti
+802AA8,Ubiquiti
+00095B,Netgear
+00146C,Netgear
+20E52A,Netgear
+A040A0,Netgear
+50C7BF,TP-Link
+14CC20,TP-Link
+F4F26D,TP-Link
+C025E9,TP-Link
+2C56DC,ASUSTek
+AC9E17,ASUSTek
+F832E4,ASUSTek
+001217,Cisco-Linksys
+001CDF,Belkin
+EC1A59,Belkin
+001422,Dell
+3CD92B,Hewlett Packard
+000048,Seiko Epson
+008077,Brother Industries
+001132,Synology
+245EBE,QNAP
+00089B,QNAP
+2CAA8E,Wyze Labs
+000E58,Sonos
+5CAAFD,Sonos
+949F3E,Sonos
+B8E937,Sonos
+C056E3,Hikvision
+4419B6,Hikvision
+4CBD8F,Hikvision
+3CEF8C,Dahua
+E0508B,Dahua
+9C8ECD,Amcrest
+240AC4,Espressif (ESP32/ESP8266 IoT)
+30AEA4,Espressif (ESP32/ESP8266 IoT)
+84F3EB,Espressif (ESP32/ESP8266 IoT)
+A4CF12,Espressif (ESP32/ESP8266 IoT)
+ECFABC,Espressif (ESP32/ESP8266 IoT)
+246F28,Espressif (ESP32/ESP8266 IoT)
+3C71BF,Espressif (ESP32/ESP8266 IoT)
+B0A737,Roku
+DC3A5E,Roku
+CC6DA0,Roku
+00044B,NVIDIA
+640980,Xiaomi
+286C07,Xiaomi
+7811DC,Xiaomi
+0009BF,Nintendo
+98B6E9,Nintendo
+7CBB8A,Nintendo
+00D9D1,Sony Interactive Entertainment
+280DFC,Sony Interactive Entertainment
+F8461C,Sony Interactive Entertainment

@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lan-auditor"
+version = "0.1.0"
+description = "Home network LAN auditor and device fingerprinter: ping sweeps, port scans, banner grabbing, MAC vendor lookup and risk flags."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Dave Alexis" }]
+keywords = ["security", "network", "scanner", "home-lab", "nmap", "arp", "fingerprinting"]
+classifiers = [
+  "Environment :: Console",
+  "Intended Audience :: System Administrators",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Security",
+  "Topic :: System :: Networking :: Monitoring",
+]
+dependencies = []
+
+[project.optional-dependencies]
+arp = ["scapy>=2.5"]
+dev = ["pytest>=7", "ruff>=0.4"]
+
+[project.scripts]
+lan-auditor = "lanaudit.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/DaveyD347/lan-auditor"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+lanaudit = ["data/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
